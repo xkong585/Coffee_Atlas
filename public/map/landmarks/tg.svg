@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>Koutammakou tower house, Togo</title>
+<g stroke="#3b2f2a" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M7 62V42Q7 38 11 38H53Q57 38 57 42V62Z" fill="#b9744f"/>
+<path d="M45 38H53Q57 38 57 42V62H45Z" fill="#97583a" stroke="none"/>
+<path d="M7 62V42Q7 38 11 38H53Q57 38 57 42V62Z" fill="none"/>
+<path d="M7 38H57" fill="none"/>
+<path d="M12 38V62" fill="none" stroke="#8a4f33" stroke-width="0.5"/>
+<path d="M22 38V62" fill="none" stroke="#8a4f33" stroke-width="0.5"/>
+<path d="M42 38V62" fill="none" stroke="#8a4f33" stroke-width="0.5"/>
+<path d="M50 38V62" fill="none" stroke="#8a4f33" stroke-width="0.5"/>
+<path d="M28 62V51Q28 47 32 47Q36 47 36 51V62Z" fill="#3d2418" stroke-width="0.8"/>
+<path d="M12 54H17V58H12Z" fill="#3d2418" stroke-width="0.8"/>
+<rect x="45" y="52" width="5" height="4" fill="#3d2418" stroke-width="0.8"/>
+<path d="M21 38V25H43V38Z" fill="#c28258"/>
+<path d="M36 38V25H43V38Z" fill="#9d6140" stroke="none"/>
+<path d="M21 38V25H43V38Z" fill="none"/>
+<rect x="30" y="29" width="4" height="5" fill="#3d2418" stroke-width="0.8"/>
+<path d="M17 26L32 4L47 26Z" fill="#d3a94f"/>
+<path d="M32 4L47 26H38Z" fill="#a9802e" stroke="none"/>
+<path d="M17 26L32 4L47 26Z" fill="none"/>
+<path d="M25 16L39 16M21 21L43 21" fill="none" stroke-width="0.8"/>
+<path d="M32 4V1" fill="none"/>
+<rect x="9" y="31" width="8" height="7" fill="#b9744f"/>
+<path d="M7 32L13 22L19 32Z" fill="#d3a94f"/>
+<path d="M9.5 27H16.5" fill="none" stroke-width="0.8"/>
+<rect x="47" y="31" width="8" height="7" fill="#b9744f"/>
+<path d="M45 32L51 22L57 32Z" fill="#bf9540"/>
+<path d="M47.5 27H54.5" fill="none" stroke-width="0.8"/>
+</g>
+</svg>

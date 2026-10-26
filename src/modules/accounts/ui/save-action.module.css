@@ -1,0 +1,65 @@
+/*
+ * The wrapper takes no box of its own: the button sits in the parent's action
+ * row and the status line wraps onto its own full-width row below it, so a
+ * message never pushes the neighbouring actions sideways.
+ */
+.root {
+  display: contents;
+}
+
+.button {
+  gap: 10px;
+  border-color: #cfcdbd;
+  background: transparent;
+  color: var(--ink);
+}
+
+.icon {
+  color: var(--olive);
+}
+
+.button:hover:not(:disabled) {
+  background: #efeee6;
+}
+
+.button[data-saved="true"] {
+  border-color: var(--olive);
+  background: #e7ebde;
+}
+
+.button[data-saved="true"] .icon {
+  fill: currentColor;
+}
+
+.button:disabled {
+  cursor: progress;
+  opacity: 0.7;
+}
+
+.status {
+  flex: 1 0 100%;
+  order: 10;
+  margin-top: -4px;
+  min-height: 1.6em;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.status[data-kind="saved"] {
+  color: #4b5741;
+}
+
+.status[data-kind="failed"] {
+  color: var(--accent);
+}
+
+.statusLink {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  color: var(--ink);
+}
+
+.statusLink:hover {
+  color: var(--accent);
+}

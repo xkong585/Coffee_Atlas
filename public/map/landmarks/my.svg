@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>Petronas Twin Towers, Kuala Lumpur</title>
+<g stroke="#3b2f2a" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M10 62 10 42 11 42 11 34 12 34 12 26 13.2 26 13.2 19 14.6 19 14.6 14 16 14 16 9 L22 9 22 14 23.4 14 23.4 19 24.8 19 24.8 26 26 26 26 34 27 34 27 42 28 42 28 62Z" fill="#c9d1d9"/>
+<path d="M22 62H28V42H27V34H26V26H24.8V19H23.4V14H22V9H22Z" fill="#9aa6b3" stroke="none"/>
+<path d="M10 62 10 42 11 42 11 34 12 34 12 26 13.2 26 13.2 19 14.6 19 14.6 14 16 14 16 9 L22 9 22 14 23.4 14 23.4 19 24.8 19 24.8 26 26 26 26 34 27 34 27 42 28 42 28 62Z" fill="none"/>
+<path d="M16 14V9L19 3L22 9V14" fill="#b6c0ca" stroke-width="0.8"/>
+<path d="M19 3V0.5" fill="none" stroke-width="1"/>
+<path d="M15 22H23" fill="none" stroke="#6c7886" stroke-width="0.5"/>
+<path d="M15 30H23" fill="none" stroke="#6c7886" stroke-width="0.5"/>
+<path d="M15 38H23" fill="none" stroke="#6c7886" stroke-width="0.5"/>
+<path d="M36 62 36 42 37 42 37 34 38 34 38 26 39.2 26 39.2 19 40.6 19 40.6 14 42 14 42 9 L48 9 48 14 49.4 14 49.4 19 50.8 19 50.8 26 52 26 52 34 53 34 53 42 54 42 54 62Z" fill="#c9d1d9"/>
+<path d="M48 62H54V42H53V34H52V26H50.8V19H49.4V14H48V9H48Z" fill="#9aa6b3" stroke="none"/>
+<path d="M36 62 36 42 37 42 37 34 38 34 38 26 39.2 26 39.2 19 40.6 19 40.6 14 42 14 42 9 L48 9 48 14 49.4 14 49.4 19 50.8 19 50.8 26 52 26 52 34 53 34 53 42 54 42 54 62Z" fill="none"/>
+<path d="M42 14V9L45 3L48 9V14" fill="#b6c0ca" stroke-width="0.8"/>
+<path d="M45 3V0.5" fill="none" stroke-width="1"/>
+<path d="M41 22H49" fill="none" stroke="#6c7886" stroke-width="0.5"/>
+<path d="M41 30H49" fill="none" stroke="#6c7886" stroke-width="0.5"/>
+<path d="M41 38H49" fill="none" stroke="#6c7886" stroke-width="0.5"/>
+<rect x="26" y="38" width="12" height="5" fill="#b6c0ca"/>
+<path d="M26 43L30 50M38 43L34 50" fill="none" stroke-width="0.8"/>
+<path d="M26 38L38 43M38 38L26 43" fill="none" stroke-width="0.6"/>
+</g>
+</svg>

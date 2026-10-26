@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>Royal drum (ingoma), Burundi</title>
+<g stroke="#3b2f2a" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M23 62L19 24H45L41 62Z" fill="#9a6034"/>
+<path d="M38 24H45L41 62H36Z" fill="#6f4222" stroke="none"/>
+<path d="M20 30H44V34H20.6Z" fill="#f0e6d0"/>
+<path d="M19.6 44H44.4L44 47H20Z" fill="#c0392b"/>
+<path d="M21.6 54H42.4L42 57.5H22Z" fill="#f0e6d0"/>
+<path d="M20.6 34L23.5 38L26.5 34L29.5 38L32.5 34L35.5 38L38.5 34L41.5 38L43.4 34" fill="none" stroke="#b83222"/>
+<path d="M20.4 39H43.6V43H20.4Z" fill="#2b221e"/>
+<path d="M23 40.5L24.5 42L26 40.5" fill="none" stroke="#f0e6d0" stroke-width="0.7"/>
+<path d="M28 40.5L29.5 42L31 40.5" fill="none" stroke="#f0e6d0" stroke-width="0.7"/>
+<path d="M33 40.5L34.5 42L36 40.5" fill="none" stroke="#f0e6d0" stroke-width="0.7"/>
+<path d="M38 40.5L39.5 42L41 40.5" fill="none" stroke="#f0e6d0" stroke-width="0.7"/>
+<path d="M22 48H42" fill="none" stroke-width="0.7"/>
+<path d="M22 50H42" fill="none" stroke-width="0.7"/>
+<path d="M22 24V30H42V24" fill="none" stroke="none"/>
+<ellipse cx="32" cy="24" rx="13.5" ry="4.5" fill="#e6d3a8"/>
+<ellipse cx="32" cy="24" rx="9" ry="2.6" fill="#f3e7c8" stroke="none"/>
+<ellipse cx="32" cy="23" rx="2.2" ry="0.9" fill="#a9824c" stroke-width="0.6"/>
+<path d="M18 4L38 20" fill="none" stroke-width="3.4"/>
+<path d="M18 4L38 20" fill="none" stroke="#d8b074" stroke-width="1.6"/>
+<path d="M46 4L26 20" fill="none" stroke-width="3.4"/>
+<path d="M46 4L26 20" fill="none" stroke="#e8c88c" stroke-width="1.6"/>
+<circle cx="18" cy="4.5" r="2.3" fill="#8a5a33"/>
+<circle cx="46" cy="4.5" r="2.3" fill="#8a5a33"/>
+<path d="M17 62H47" fill="none"/>
+</g>
+</svg>

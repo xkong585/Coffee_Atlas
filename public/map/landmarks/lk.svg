@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>Sigiriya rock fortress, Sri Lanka</title>
+<g stroke="#3b2f2a" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M13 58L15 34Q15 26 19 22L21 17Q22 14 26 14H43Q46 14 47 17L48 22Q52 26 52 34L54 58Z" fill="#a85f42"/>
+<path d="M38 14H43Q46 14 47 17L48 22Q52 26 52 34L54 58H40Q42 40 38 14Z" fill="#7e4630" stroke="none"/>
+<path d="M13 58L15 34Q15 26 19 22L21 17Q22 14 26 14H43Q46 14 47 17L48 22Q52 26 52 34L54 58Z" fill="none"/>
+<path d="M21 17Q32 20 48 17" fill="none" stroke-width="0.8"/>
+<path d="M22 11L24 8H30L32 11ZM36 11L38 9H42L43 11Z" fill="#c9b79a" stroke-width="0.8"/>
+<rect x="21" y="11" width="23" height="3" fill="#8a9a5a" stroke="none"/>
+<path d="M20 25Q28 28 34 26M17 34Q26 38 36 34" fill="none" stroke="#6e3a28" stroke-width="0.6"/>
+<path d="M17 46H50L52 52H15Z" fill="#c28a63"/>
+<path d="M27 62L29 47H36L38 62Z" fill="#d8c8a8"/>
+<path d="M28.6 52H36.4M28 56H37M27.5 59H37.5" fill="none" stroke-width="0.8"/>
+<path d="M19 48Q19 42 22 42Q27 42 27 48V54H19Z" fill="#b8794f"/>
+<path d="M21.7 54V50M24.3 54V50" fill="none" stroke-width="0.8"/>
+<path d="M40 48Q40 42 43 42Q48 42 48 48V54H40Z" fill="#b8794f"/>
+<path d="M42.7 54V50M45.3 54V50" fill="none" stroke-width="0.8"/>
+<path d="M0 62V56Q3 50 8 54Q11 49 16 54Q19 52 22 58L26 62Z" fill="#3f7f35"/>
+<path d="M64 62V55Q60 49 55 54Q52 50 48 55Q44 54 41 60L39 62Z" fill="#2c5e27"/>
+<path d="M26 62Q32 59 38 62Z" fill="#4e8f3f" stroke-width="0.8"/>
+</g>
+</svg>

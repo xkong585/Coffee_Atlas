@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>Al-Hajjarah, Haraz Mountains</title>
+<g stroke="#3b2f2a" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M3 62 L8 56 L9 49 L12 46 L12 36 H52 L53 44 L56 48 L56 55 L61 62 Z" fill="#9a8b78"/>
+<path d="M41 36 H52 L53 44 L56 48 L56 55 L61 62 H45 L46 54 L43 46 L44 40 Z" fill="#7a6c5c"/>
+<path d="M15 40 V46 L19 49 M29 40 L27 47 L32 52 L31 59 M47 40 V47 M12 53 L17 56 M37 48 L40 55 M22 52 V58" fill="none" stroke="#6a5c4e" stroke-width="1"/>
+<path d="M3 62 L8 56 L9 49 L12 46 L12 36 H52 L53 44 L56 48 L56 55 L61 62 Z" fill="none"/>
+<rect x="13" y="19" width="10" height="18" fill="#8f7965"/>
+<rect x="42" y="23" width="9" height="14" fill="#8f7965"/>
+<rect x="34" y="14" width="9" height="23" fill="#7a6553"/>
+<rect x="22" y="8" width="13" height="29" fill="#9a8470"/>
+<rect x="31" y="8" width="4" height="29" fill="#7a6553" stroke="none"/>
+<rect x="22" y="8" width="13" height="29" fill="none"/>
+<path d="M12.5 19 H23.5 M21.5 8 H35.5 M33.5 14 H43.5 M41.5 23 H51.5" fill="none" stroke="#f2eee6" stroke-width="1.6"/>
+<g fill="#3b2f2a" stroke="#f2eee6" stroke-width="0.9">
+<rect x="15" y="22.5" width="2.4" height="3"/><rect x="18.8" y="22.5" width="2.4" height="3"/>
+<rect x="15" y="29" width="2.4" height="3"/><rect x="18.8" y="29" width="2.4" height="3"/>
+<rect x="24.5" y="11.5" width="2.4" height="3"/><rect x="28.8" y="11.5" width="2.4" height="3"/>
+<rect x="24.5" y="18" width="2.4" height="3"/><rect x="28.8" y="18" width="2.4" height="3"/>
+<rect x="24.5" y="24.5" width="2.4" height="3"/><rect x="28.8" y="24.5" width="2.4" height="3"/>
+<rect x="36.2" y="18" width="2.4" height="3"/><rect x="36.2" y="25" width="2.4" height="3"/>
+<rect x="44" y="26.5" width="2.4" height="3"/><rect x="47.5" y="26.5" width="2.4" height="3"/>
+</g>
+<path d="M25.5 37 V32.5 Q27 31 28.5 32.5 V37 Z" fill="#3b2f2a" stroke="#f2eee6" stroke-width="0.9"/>
+<path d="M12.5 37 H51.5" fill="none"/>
+</g>
+</svg>

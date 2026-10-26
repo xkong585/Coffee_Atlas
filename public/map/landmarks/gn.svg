@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>Grand Mosque of Conakry</title>
+<g stroke="#3b2f2a" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
+<rect x="4.0" y="20" width="5" height="42" fill="#f4f1ea"/>
+<rect x="6.5" y="20" width="2.5" height="42" fill="#d4cfc0" stroke="none"/>
+<rect x="4.0" y="20" width="5" height="42" fill="none"/>
+<rect x="3.0" y="26" width="7" height="2" fill="#e6e1d3"/>
+<rect x="3.0" y="38" width="7" height="2" fill="#e6e1d3"/>
+<path d="M3.5 20Q3.5 10 6.5 10Q9.5 10 9.5 20Z" fill="#9fb4a8"/>
+<path d="M6.5 10V4" fill="none"/>
+<rect x="5.5" y="30" width="2" height="4" fill="#5b6b66" stroke-width="0.8"/>
+<rect x="5.5" y="44" width="2" height="5" fill="#5b6b66" stroke-width="0.8"/>
+<rect x="55.0" y="20" width="5" height="42" fill="#f4f1ea"/>
+<rect x="57.5" y="20" width="2.5" height="42" fill="#d4cfc0" stroke="none"/>
+<rect x="55.0" y="20" width="5" height="42" fill="none"/>
+<rect x="54.0" y="26" width="7" height="2" fill="#e6e1d3"/>
+<rect x="54.0" y="38" width="7" height="2" fill="#e6e1d3"/>
+<path d="M54.5 20Q54.5 10 57.5 10Q60.5 10 60.5 20Z" fill="#9fb4a8"/>
+<path d="M57.5 10V4" fill="none"/>
+<rect x="56.5" y="30" width="2" height="4" fill="#5b6b66" stroke-width="0.8"/>
+<rect x="56.5" y="44" width="2" height="5" fill="#5b6b66" stroke-width="0.8"/>
+<rect x="12" y="42" width="40" height="20" fill="#f4f1ea"/>
+<rect x="42" y="42" width="10" height="20" fill="#d4cfc0" stroke="none"/>
+<rect x="12" y="42" width="40" height="20" fill="none"/>
+<path d="M15 62V52Q17 48 19 52V62Z" fill="#4f625c" stroke-width="0.8"/>
+<path d="M22 62V52Q24 48 26 52V62Z" fill="#4f625c" stroke-width="0.8"/>
+<path d="M38 62V52Q40 48 42 52V62Z" fill="#4f625c" stroke-width="0.8"/>
+<path d="M45 62V52Q47 48 49 52V62Z" fill="#4f625c" stroke-width="0.8"/>
+<path d="M27 62V50Q32 43 37 50V62Z" fill="#4f625c" stroke-width="0.8"/>
+<path d="M18 42Q18 30 32 29Q46 30 46 42Z" fill="#cfd8dc"/>
+<path d="M38 31Q45 33 46 42H38Z" fill="#a9b6bd" stroke="none"/>
+<path d="M18 42Q18 30 32 29Q46 30 46 42Z" fill="none"/>
+<path d="M26 29Q26 21 32 20Q38 21 38 29" fill="#e8eef0"/>
+<path d="M32 20V14" fill="none"/>
+<circle cx="32" cy="13.5" r="1.2" fill="#e0b64a" stroke-width="0.8"/>
+<path d="M14 42Q14 38 17 38Q20 38 20 42M44 42Q44 38 47 38Q50 38 50 42" fill="#cfd8dc" stroke-width="0.8"/>
+</g>
+</svg>

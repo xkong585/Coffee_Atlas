@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>Kasubi Tombs, Kampala</title>
+<g stroke="#3b2f2a" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M2 62C2 40 15 23 32 23C49 23 62 40 62 62Z" fill="#c79a45"/>
+<path d="M32 23C49 23 62 40 62 62H46C46 42 40 28 32 23Z" fill="#9c7230" stroke="none"/>
+<path d="M29 23L32 17L35 23Z" fill="#8a6a2c"/>
+<path d="M19 28Q32 33 45 28" fill="none" stroke-width="0.8"/>
+<path d="M12.5 34Q32 39 51.5 34" fill="none" stroke-width="0.8"/>
+<path d="M8 40Q32 45 56 40" fill="none" stroke-width="0.8"/>
+<path d="M5 46Q32 51 59 46" fill="none" stroke-width="0.8"/>
+<path d="M3.5 52Q32 57 60.5 52" fill="none" stroke-width="0.8"/>
+<path d="M2 62C2 58 3 56 4 54H60C61 56 62 58 62 62Z" fill="#8a6a3a"/>
+<path d="M17 62V49C17 38 47 38 47 49V62Z" fill="#dcb766"/>
+<path d="M22 62V50C22 43 42 43 42 50V62Z" fill="#2e211a"/>
+<path d="M8 62V55" fill="none" stroke="#5a4326"/>
+<path d="M13 62V55" fill="none" stroke="#5a4326"/>
+<path d="M51 62V55" fill="none" stroke="#5a4326"/>
+<path d="M56 62V55" fill="none" stroke="#5a4326"/>
+<path d="M2 62H62" fill="none"/>
+</g>
+</svg>

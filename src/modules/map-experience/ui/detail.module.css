@@ -1,0 +1,398 @@
+/* Bean and drink detail pages. Tokens come from src/app/globals.css. */
+
+/* The page eases in once it arrives (after the route skeleton below). */
+.enter {
+  animation: detail-enter 260ms ease both;
+}
+
+@keyframes detail-enter {
+  from {
+    opacity: 0;
+  }
+}
+
+/* The header shares the first row with the facts panel, so the profile is above the fold. */
+.header {
+  grid-area: header;
+  min-width: 0;
+}
+
+.header h1 {
+  font-family: var(--serif);
+  font-size: clamp(38px, 4.2vw, 58px);
+  line-height: 1.1;
+  letter-spacing: -2px;
+  font-weight: 400;
+  margin-top: 13px;
+  overflow-wrap: break-word;
+}
+
+.lead {
+  margin-top: 18px;
+  max-width: 640px;
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--muted);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 30px;
+  margin-top: 26px;
+}
+
+.actions > a {
+  min-height: 49px;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 340px);
+  grid-template-areas:
+    "header facts"
+    "main facts";
+  column-gap: 64px;
+  row-gap: 44px;
+  align-items: start;
+  margin-top: 30px;
+}
+
+.main {
+  grid-area: main;
+  display: grid;
+  gap: 48px;
+  min-width: 0;
+}
+
+/* Its top lines up with the header's eyebrow. */
+.facts {
+  grid-area: facts;
+  align-self: start;
+  position: sticky;
+  top: 24px;
+  margin-top: 6px;
+  min-width: 0;
+  padding: 22px 24px 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.facts h2 {
+  font-size: 10px;
+  line-height: 1.5;
+  font-weight: 600;
+  letter-spacing: 1.7px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.factList {
+  margin: 10px 0 0;
+}
+
+.factList > div {
+  padding: 13px 0 14px;
+  border-top: 1px solid var(--border);
+}
+
+.factList > div:first-child {
+  border-top: 0;
+}
+
+.factList dt {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.factList dd {
+  margin: 5px 0 0;
+  font-size: 13px;
+  line-height: 1.65;
+  overflow-wrap: break-word;
+}
+
+.notRecorded {
+  color: var(--muted);
+  font-style: italic;
+}
+
+.inlineList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.inlineList li:not(:last-child)::after {
+  content: ",";
+}
+
+.placeLink {
+  text-decoration: underline;
+  text-decoration-color: #c9c8bb;
+  text-underline-offset: 3px;
+}
+
+.placeLink:hover {
+  color: var(--accent);
+  text-decoration-color: currentColor;
+}
+
+/* Origin / association blocks in the main column */
+
+.placeBlock {
+  display: grid;
+  gap: 4px;
+  padding: 18px 20px 20px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--surface);
+}
+
+.placeBlock + .placeBlock {
+  margin-top: 12px;
+}
+
+.placeTitle {
+  font-family: var(--serif);
+  font-size: 22px;
+  line-height: 1.3;
+  letter-spacing: -0.45px;
+}
+
+.placeSub {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.placeLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 24px;
+  margin-top: 6px;
+}
+
+.prose {
+  max-width: 640px;
+  font-size: 14px;
+  line-height: 1.85;
+}
+
+.subhead {
+  margin: 26px 0 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.subhead:first-child {
+  margin-top: 0;
+}
+
+.note {
+  margin-top: 14px;
+  max-width: 600px;
+  font-size: 12px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+/* Unavailable / error */
+
+.problem {
+  max-width: 720px;
+  margin-top: 36px;
+}
+
+.problem h1 {
+  font-family: var(--serif);
+  font-size: clamp(34px, 3.6vw, 50px);
+  line-height: 1.15;
+  letter-spacing: -1.7px;
+  font-weight: 400;
+  margin: 12px 0 8px;
+}
+
+@media (max-width: 1100px) {
+  .layout {
+    column-gap: 40px;
+  }
+}
+
+/* One column: header, then the facts, then the sections. */
+@media (max-width: 899px) {
+  .layout {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      "header"
+      "facts"
+      "main";
+    row-gap: 32px;
+  }
+
+  .facts {
+    position: static;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 760px) {
+  .layout {
+    margin-top: 20px;
+  }
+
+  .header h1 {
+    font-size: clamp(34px, 10vw, 44px);
+    letter-spacing: -1.4px;
+  }
+
+  .lead {
+    font-size: 14px;
+  }
+
+  .facts {
+    padding: 18px 18px 6px;
+  }
+
+  .placeBlock {
+    padding: 16px 16px 18px;
+  }
+
+  .problem {
+    margin-top: 24px;
+  }
+}
+
+/*
+ * Route skeleton (beans/[id]/loading.tsx, drinks/[id]/loading.tsx): quiet
+ * blocks in the page's own grid, so the page arrives where the blocks were.
+ */
+
+.skeletonPage {
+  min-height: 100vh;
+}
+
+.skeletonCrumbs {
+  display: flex;
+  align-items: center;
+  min-height: 36px;
+}
+
+.bar {
+  display: block;
+  max-width: 100%;
+  border-radius: 2px;
+  background: var(--border);
+  animation: skeleton-breathe 1.8s ease-in-out infinite;
+}
+
+@keyframes skeleton-breathe {
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.skeletonCrumb {
+  width: 220px;
+  height: 10px;
+}
+
+/* Each bar sits in the line box of the text it stands for. */
+.skeletonEyebrow {
+  width: 240px;
+  height: 10px;
+  margin-block: 2.5px;
+}
+
+.skeletonTitle {
+  width: 60%;
+  height: 46px;
+  margin: 22px 0 9px;
+}
+
+.skeletonLead {
+  display: grid;
+  gap: 17px;
+  max-width: 640px;
+  margin-top: 26px;
+  padding-bottom: 9px;
+}
+
+/* Leads wrap to two lines on wider screens and to three on phones; the last line is short. */
+.skeletonLead > :nth-child(2),
+.skeletonLead > :nth-child(3) {
+  width: 72%;
+}
+
+.skeletonLead > :nth-child(3) {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .skeletonLead > :nth-child(2) {
+    width: auto;
+  }
+
+  .skeletonLead > :nth-child(3) {
+    display: block;
+  }
+}
+
+.skeletonLine {
+  height: 10px;
+}
+
+.skeletonActions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 30px;
+  margin-top: 26px;
+}
+
+.skeletonButton {
+  width: 110px;
+  height: 49px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+
+.skeletonAction {
+  width: 180px;
+  height: 12px;
+}
+
+.skeletonFactsLabel {
+  width: 92px;
+  height: 10px;
+  margin-block: 2.5px;
+}
+
+.skeletonFactLabel {
+  height: 9px;
+  margin-block: 4px;
+}
+
+.skeletonFactValue {
+  height: 11px;
+  margin: 10px 0 5px;
+}
+
+@media (max-width: 760px) {
+  .skeletonTitle {
+    width: 80%;
+    height: 38px;
+    margin: 16px 0 3px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .enter,
+  .bar {
+    animation: none;
+  }
+}

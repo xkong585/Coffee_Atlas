@@ -1,0 +1,23 @@
+# Keep local credentials, account data, and generated files out of deployments.
+.env
+.env.*
+!.env.example
+/data/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+node_modules/
+.next/
+.vercel/
+out/
+dist/
+coverage/
+test-results/
+playwright-report/
+*.tsbuildinfo
+*.log
+.DS_Store
+Icon?

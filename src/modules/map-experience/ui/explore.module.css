@@ -1,0 +1,478 @@
+/* Exploration pages: map + panel layout and location lists. Tokens come from src/app/globals.css. */
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "map head"
+    "map body";
+  column-gap: 48px;
+  margin-top: 22px;
+}
+
+.map {
+  grid-area: map;
+  align-self: start;
+  position: sticky;
+  top: 24px;
+  min-width: 0;
+}
+
+.head {
+  grid-area: head;
+  min-width: 0;
+  padding-top: 6px;
+}
+
+.head h1 {
+  font-family: var(--serif);
+  font-size: clamp(34px, 3.1vw, 46px);
+  line-height: 1.12;
+  letter-spacing: -1.5px;
+  font-weight: 400;
+  margin-top: 12px;
+  overflow-wrap: break-word;
+}
+
+/* The map focuses the new heading after a navigation; it is a landmark, not a control. */
+.head h1:focus {
+  outline: none;
+}
+
+.lead {
+  margin-top: 16px;
+  max-width: 460px;
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--muted);
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  color: var(--ink);
+}
+
+.stats li {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.stats li + li::before {
+  content: "";
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #afb1a4;
+}
+
+.headAction {
+  margin-top: 6px;
+}
+
+.body {
+  grid-area: body;
+  min-width: 0;
+  margin-top: 26px;
+}
+
+.panelBlock {
+  border-top: 1px solid var(--border);
+  padding-top: 20px;
+}
+
+.panelBlock + .panelBlock {
+  margin-top: 26px;
+}
+
+.panelHeading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 6px;
+}
+
+.panelHeading h2 {
+  font-size: 10px;
+  line-height: 1.5;
+  font-weight: 600;
+  letter-spacing: 1.7px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.panelHeading span {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.panelNote {
+  margin-top: 12px;
+  font-size: 12px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.panelNoteFirst {
+  margin-top: 0;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 26px;
+  margin-top: 26px;
+}
+
+/*
+ * Panel motion. The map sets data-pending on the layout while the next page
+ * loads; the delay means fast responses never dim. Each navigation mounts a
+ * new page, so the enter animation replays per step while the map stays put.
+ */
+
+.layout > .head,
+.layout > .body {
+  transition: opacity 180ms ease;
+}
+
+.layout[data-pending] > .head,
+.layout[data-pending] > .body {
+  opacity: 0.55;
+  transition: opacity 200ms ease 160ms;
+}
+
+.head > *,
+.body > * {
+  animation: panel-enter 320ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.head > :nth-child(2),
+.body > :nth-child(2) {
+  animation-delay: 40ms;
+}
+
+.head > :nth-child(3),
+.body > :nth-child(3) {
+  animation-delay: 80ms;
+}
+
+.head > :nth-child(4),
+.body > :nth-child(4) {
+  animation-delay: 120ms;
+}
+
+.head > :nth-child(n + 5),
+.body > :nth-child(n + 5) {
+  animation-delay: 160ms;
+}
+
+@keyframes panel-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+/* Location lists */
+
+.places {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.places > li + li {
+  border-top: 1px solid var(--border);
+}
+
+.place {
+  display: block;
+  padding: 11px 0 12px;
+}
+
+.placeCurrent {
+  padding-left: 12px;
+  border-left: 2px solid var(--accent);
+}
+
+.placeHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.placeHead > svg {
+  color: #8f9185;
+  transition: transform 160ms ease;
+}
+
+.placeName {
+  font-family: var(--serif);
+  font-size: 19px;
+  line-height: 1.3;
+  letter-spacing: -0.35px;
+}
+
+.placeMeta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 12px;
+  margin-top: 3px;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.placeSummary {
+  display: -webkit-box;
+  margin-top: 6px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1.65;
+  color: var(--muted);
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
+
+.offMap {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 1px 8px;
+  border: 1px dashed #c6c4b4;
+  border-radius: 999px;
+  font-size: 10px;
+  letter-spacing: 0.3px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.currentLabel {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+/* Below the map: grown / enjoyed side by side, then sources. */
+
+.below {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 48px;
+  margin-top: 64px;
+}
+
+.full {
+  grid-column: 1 / -1;
+}
+
+/* World page guide to the three kinds of relationship. */
+
+.guide {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 64px 0 0;
+  padding: 26px 0 0;
+  border-top: 1px solid var(--border);
+}
+
+.guide > div {
+  padding: 4px 32px 6px;
+  border-left: 1px solid var(--border);
+}
+
+.guide > div:first-child {
+  padding-left: 0;
+  border-left: 0;
+}
+
+.guide > div:last-child {
+  padding-right: 0;
+}
+
+.guide dt {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--serif);
+  font-size: 21px;
+  line-height: 1.25;
+  letter-spacing: -0.45px;
+}
+
+.guide dt > svg {
+  color: var(--olive);
+}
+
+.guide dd {
+  margin: 10px 0 0;
+  max-width: 340px;
+  font-size: 12px;
+  line-height: 1.8;
+  color: var(--muted);
+}
+
+/* Hover states for list links (kept after the base rules they refine). Only with a real hover:
+   touch screens keep :hover on the last tapped row. */
+
+@media (hover: hover) and (pointer: fine) {
+  a.place:hover .placeName,
+  a.place:hover .placeHead > svg {
+    color: var(--accent);
+  }
+
+  a.place:hover .placeHead > svg {
+    transform: translateX(3px);
+  }
+}
+
+/* Unavailable / error pages for a country or region. */
+
+.problem {
+  max-width: 720px;
+  margin-top: 36px;
+}
+
+.problem h1 {
+  font-family: var(--serif);
+  font-size: clamp(34px, 3.6vw, 50px);
+  line-height: 1.15;
+  letter-spacing: -1.7px;
+  font-weight: 400;
+  margin: 12px 0 8px;
+}
+
+/* When the map can't load, its short notice sits above the panel instead of beside it. */
+.layout:has([data-map-state="error"]) {
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "head"
+    "map"
+    "body";
+}
+
+.layout:has([data-map-state="error"]) .head {
+  margin-bottom: 22px;
+}
+
+.layout:has([data-map-state="error"]) .map {
+  position: static;
+}
+
+@media (max-width: 1100px) {
+  .layout {
+    column-gap: 32px;
+  }
+
+  .below {
+    gap: 32px;
+  }
+
+  .guide > div {
+    padding-inline: 22px;
+  }
+}
+
+@media (max-width: 899px) {
+  .layout {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "head"
+      "map"
+      "body";
+    margin-top: 14px;
+  }
+
+  .head {
+    padding-top: 0;
+    margin-bottom: 22px;
+  }
+
+  .map {
+    position: static;
+  }
+
+  .body {
+    margin-top: 30px;
+  }
+
+  .below {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 40px;
+    margin-top: 48px;
+  }
+
+  .guide {
+    grid-template-columns: minmax(0, 1fr);
+    margin-top: 48px;
+  }
+
+  .guide > div,
+  .guide > div:first-child,
+  .guide > div:last-child {
+    padding: 18px 0;
+    border-left: 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .guide > div:first-child {
+    padding-top: 0;
+  }
+
+  .guide > div:last-child {
+    border-bottom: 0;
+  }
+}
+
+@media (max-width: 760px) {
+  .head h1 {
+    font-size: clamp(32px, 9vw, 40px);
+    letter-spacing: -1.2px;
+  }
+
+  .lead {
+    font-size: 13px;
+  }
+
+  .problem {
+    margin-top: 24px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .head > *,
+  .body > * {
+    animation: none;
+  }
+
+  .layout[data-pending] > .head,
+  .layout[data-pending] > .body {
+    transition-delay: 0ms;
+  }
+
+  .placeHead > svg {
+    transition: none;
+  }
+
+  a.place:hover .placeHead > svg {
+    transform: none;
+  }
+}

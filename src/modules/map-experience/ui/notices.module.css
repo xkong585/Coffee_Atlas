@@ -1,0 +1,80 @@
+/* Preview and catalog-state notices. Tokens come from src/app/globals.css. */
+
+.preview {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px 18px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+  padding: 13px 16px 14px;
+  border: 1px dashed #c9c3a8;
+  border-radius: 4px;
+  background: #f4f1e6;
+}
+
+.preview p {
+  flex: 1 1 320px;
+  font-size: 12px;
+  line-height: 1.65;
+  color: var(--ink);
+}
+
+.preview code {
+  font-family: "SFMono-Regular", Consolas, monospace;
+  font-size: 11px;
+}
+
+.previewLabel {
+  padding-top: 2px;
+  color: #6d5a2e;
+}
+
+.previewLabel > span {
+  background: #b0893a;
+}
+
+.state {
+  margin-top: 18px;
+  padding: 22px 24px 24px;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--olive);
+  background: var(--surface);
+}
+
+.state[data-status="error"] {
+  border-left-color: var(--accent);
+}
+
+.state h2 {
+  font-family: var(--serif);
+  font-size: 22px;
+  line-height: 1.3;
+  letter-spacing: -0.4px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+.state p:not(:global(.eyebrow)) {
+  margin-top: 8px;
+  max-width: 560px;
+  font-size: 13px;
+  line-height: 1.75;
+  color: var(--muted);
+}
+
+.stateActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 26px;
+  margin-top: 10px;
+}
+
+@media (max-width: 760px) {
+  .state {
+    padding: 18px 18px 20px;
+  }
+
+  .state h2 {
+    font-size: 20px;
+  }
+}

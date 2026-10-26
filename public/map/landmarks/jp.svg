@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>Mount Fuji with torii, Japan</title>
+<g stroke="#3b2f2a" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M-2 60Q10 56 20 34Q27 16 30 6Q32 2 34 6Q37 16 44 34Q54 56 66 60V62H-2Z" fill="#6f86a8"/>
+<path d="M34 6Q37 16 44 34Q54 56 66 60V62H40Q42 36 34 6Z" fill="#566b8c" stroke="none"/>
+<path d="M23 28Q28 14 30 6Q32 2 34 6Q37 14 41 28L37 25L35 30L32 25L29 31L26 26Z" fill="#f7f9fb"/>
+<path d="M-2 60Q10 56 20 34Q27 16 30 6Q32 2 34 6Q37 16 44 34Q54 56 66 60V62H-2Z" fill="none"/>
+<rect x="13" y="36" width="5" height="26" fill="#d03a2a"/>
+<rect x="16" y="36" width="2" height="26" fill="#9e2a20" stroke="none"/>
+<rect x="13" y="36" width="5" height="26" fill="none"/>
+<rect x="12" y="58" width="7" height="4" fill="#2f2a28" stroke-width="0.8"/>
+<rect x="47" y="36" width="5" height="26" fill="#d03a2a"/>
+<rect x="50" y="36" width="2" height="26" fill="#9e2a20" stroke="none"/>
+<rect x="47" y="36" width="5" height="26" fill="none"/>
+<rect x="46" y="58" width="7" height="4" fill="#2f2a28" stroke-width="0.8"/>
+<rect x="10" y="42" width="44" height="3.5" fill="#d03a2a"/>
+<rect x="10" y="42" width="44" height="3.5" fill="none"/>
+<rect x="28" y="36" width="8" height="6" fill="#d03a2a" stroke-width="0.8"/>
+<path d="M2 30Q10 34 32 33Q54 34 62 30L60 35Q54 36 32 36Q10 36 4 35Z" fill="#2f2a28"/>
+<path d="M5 35Q12 37 32 36.5Q52 37 59 35L58 37Q50 39 32 39Q14 39 6 37Z" fill="#d03a2a"/>
+</g>
+</svg>

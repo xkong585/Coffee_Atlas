@@ -1,0 +1,425 @@
+/* Item cards, sections, pairings and sources. Tokens come from src/app/globals.css. */
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Sections ("Grown here", "Enjoyed here", "Pairings", "Sources") */
+
+.section {
+  min-width: 0;
+  border-top: 1px solid var(--border);
+  padding-top: 26px;
+}
+
+.sectionHead {
+  max-width: 560px;
+}
+
+/* The section icon leads the eyebrow line, so titles with and without one align. */
+.eyebrowIcon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.eyebrowIcon > svg {
+  flex: none;
+  width: 16px;
+  height: 16px;
+  color: var(--olive);
+}
+
+.sectionTitle {
+  margin-top: 8px;
+  font-family: var(--serif);
+  font-size: 27px;
+  line-height: 1.2;
+  letter-spacing: -0.7px;
+  font-weight: 400;
+}
+
+.sectionIntro {
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 1.75;
+  color: var(--muted);
+}
+
+.sectionBody {
+  margin-top: 22px;
+}
+
+.group + .group {
+  margin-top: 30px;
+}
+
+.groupHead {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  margin-bottom: 12px;
+}
+
+.groupHead h3,
+.groupHead h4 {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.groupHead p {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* A group with nothing under its heading says so in its intro line. */
+.groupHead:last-child {
+  margin-bottom: 0;
+}
+
+/* Empty groups are a plain sentence; dashed lines are kept for "tentative" (suggested pairings). */
+.empty {
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+/* Cards */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 230px), 1fr));
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cardItem {
+  display: flex;
+  min-width: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 186px;
+  padding: 17px 19px 15px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--surface);
+  transition: border-color 160ms ease, background-color 160ms ease;
+}
+
+.card:hover {
+  border-color: #cfcdbd;
+  background: #fdfdfb;
+}
+
+.card:focus-visible {
+  outline-offset: 3px;
+}
+
+.cardTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.cardTop > svg {
+  color: var(--olive);
+}
+
+.cardMeta {
+  font-size: 10px;
+  line-height: 1.5;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.cardName {
+  display: block;
+  margin-top: 12px;
+  font-family: var(--serif);
+  font-size: 21px;
+  line-height: 1.22;
+  letter-spacing: -0.45px;
+}
+
+.cardBody {
+  display: block;
+  margin-top: 12px;
+}
+
+.cardMuted {
+  display: block;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* A drink without flavor notes shows the start of its description instead. */
+.cardSummary {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1.65;
+  color: var(--muted);
+}
+
+.cardAction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 16px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.card:hover .cardAction {
+  color: var(--accent);
+}
+
+/* Flavor-note chips */
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.chip,
+.chipMore {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 2px 9px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: #f3f3ec;
+  font-size: 11px;
+  line-height: 1.4;
+  color: var(--ink);
+}
+
+.chipMore {
+  color: var(--muted);
+  background: transparent;
+}
+
+/* Pairings */
+
+.pairings {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pairing {
+  padding: 17px 19px 16px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--surface);
+}
+
+.pairing[data-relationship="suggested"] {
+  border-style: dashed;
+  background: transparent;
+}
+
+.pairingTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+
+.pairingName {
+  margin: 0;
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: -0.4px;
+}
+
+.pairingName a:hover {
+  color: var(--accent);
+}
+
+.pairingPlace {
+  display: block;
+  margin-top: 3px;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.badge::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.badgeDocumented {
+  background: #e7ebde;
+  color: #4b5741;
+}
+
+.badgeSuggested {
+  border: 1px dashed #c9b5a6;
+  color: #7b4a35;
+}
+
+.pairingExplanation {
+  margin-top: 11px;
+  font-size: 13px;
+  line-height: 1.75;
+  color: var(--ink);
+}
+
+/* Sources */
+
+.sources {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+  gap: 4px 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: source;
+}
+
+.source {
+  position: relative;
+  min-width: 0;
+  padding: 12px 0 12px 30px;
+  border-bottom: 1px solid var(--border);
+  counter-increment: source;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.source::before {
+  content: counter(source, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 14px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #8f9185;
+}
+
+.sourceLink {
+  display: inline;
+  overflow-wrap: anywhere;
+  text-decoration: underline;
+  text-decoration-color: #c9c8bb;
+  text-underline-offset: 3px;
+}
+
+.sourceLink:hover {
+  color: var(--accent);
+  text-decoration-color: currentColor;
+}
+
+.externalIcon {
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: -1px;
+}
+
+.sourceMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 14px;
+  margin-top: 3px;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.sourceMissing {
+  color: var(--muted);
+}
+
+.sourceMissing code {
+  font-family: "SFMono-Regular", Consolas, monospace;
+  font-size: 10px;
+}
+
+.inlineSources {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 14px;
+  margin-top: 12px;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.inlineSourcesLabel {
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 9px;
+  color: var(--muted);
+}
+
+.sourceMissingInline {
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (max-width: 760px) {
+  .sectionTitle {
+    font-size: 25px;
+  }
+
+  .card {
+    min-height: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card {
+    transition: none;
+  }
+}

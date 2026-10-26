@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>Borobudur</title>
+<g stroke="#3b2f2a" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
+<rect x="2" y="56.8" width="60" height="5.2" fill="#a89a85"/>
+<rect x="53.6" y="56.8" width="8.4" height="5.2" fill="#6a5f51" stroke="none" opacity="0.45"/>
+<path d="M3.6 59.2 H60.6" fill="none" stroke="#6a5f51" stroke-width="3" stroke-dasharray="1.2 1.9" stroke-linecap="butt"/>
+<rect x="2" y="56.8" width="60" height="5.2" fill="none"/>
+<rect x="5.5" y="52.4" width="53" height="4.4" fill="#a89a85"/>
+<rect x="51.1" y="52.4" width="7.4" height="4.4" fill="#6a5f51" stroke="none" opacity="0.45"/>
+<path d="M7.1 54.4 H57.1" fill="none" stroke="#6a5f51" stroke-width="2.2" stroke-dasharray="1.2 1.9" stroke-linecap="butt"/>
+<rect x="5.5" y="52.4" width="53" height="4.4" fill="none"/>
+<rect x="8.5" y="48.4" width="47" height="4" fill="#a89a85"/>
+<rect x="48.9" y="48.4" width="6.6" height="4" fill="#6a5f51" stroke="none" opacity="0.45"/>
+<path d="M10.1 50.2 H54.1" fill="none" stroke="#6a5f51" stroke-width="1.8" stroke-dasharray="1.2 1.9" stroke-linecap="butt"/>
+<rect x="8.5" y="48.4" width="47" height="4" fill="none"/>
+<rect x="11.3" y="44.7" width="41.4" height="3.7" fill="#a89a85"/>
+<rect x="46.9" y="44.7" width="5.8" height="3.7" fill="#6a5f51" stroke="none" opacity="0.45"/>
+<path d="M12.9 46.3 H51.3" fill="none" stroke="#6a5f51" stroke-width="1.5" stroke-dasharray="1.2 1.9" stroke-linecap="butt"/>
+<rect x="11.3" y="44.7" width="41.4" height="3.7" fill="none"/>
+<rect x="14" y="41.3" width="36" height="3.4" fill="#a89a85"/>
+<rect x="45" y="41.3" width="5" height="3.4" fill="#6a5f51" stroke="none" opacity="0.45"/>
+<path d="M15.6 42.8 H48.6" fill="none" stroke="#6a5f51" stroke-width="1.2" stroke-dasharray="1.2 1.9" stroke-linecap="butt"/>
+<rect x="14" y="41.3" width="36" height="3.4" fill="none"/>
+<rect x="25.5" y="34" width="13" height="1.8" fill="#8c7f6c"/>
+<path d="M26.5 34 C26.5 23 37.5 23 37.5 34 Z" fill="#c2b6a0"/>
+<path d="M33.5 25.2 C36 26.4 37.5 29.2 37.5 34 H34.5 Z" fill="#8c7f6c" stroke="none"/>
+<path d="M26.5 34 C26.5 23 37.5 23 37.5 34 Z" fill="none"/>
+<rect x="30" y="22.8" width="4" height="2.2" fill="#8c7f6c" stroke-width="0.9"/>
+<path d="M30.8 22.8 L32 14.4 L33.2 22.8 Z" fill="#c2b6a0" stroke-width="0.9"/>
+<path d="M22.3 34.4c0 -2.8 2.7 -2.8 2.7 0zM23.6 32.3v-1.1M26.5 34.4c0 -2.8 2.7 -2.8 2.7 0zM27.8 32.3v-1.1M30.7 34.4c0 -2.8 2.7 -2.8 2.7 0zM32 32.3v-1.1M34.9 34.4c0 -2.8 2.7 -2.8 2.7 0zM36.2 32.3v-1.1M39.1 34.4c0 -2.8 2.7 -2.8 2.7 0zM40.4 32.3v-1.1" fill="#c2b6a0" stroke-width="0.8"/>
+<rect x="21.5" y="34.4" width="21" height="3.4" fill="#8c7f6c"/>
+<rect x="39.6" y="34.4" width="2.9" height="3.4" fill="#6a5f51" stroke="none" opacity="0.45"/>
+<rect x="21.5" y="34.4" width="21" height="3.4" fill="none"/>
+<path d="M18.8 37.8c0 -2.9 2.8 -2.9 2.8 0zM20.2 35.6v-1.1M22.7 37.8c0 -2.9 2.8 -2.9 2.8 0zM24.1 35.6v-1.1M26.7 37.8c0 -2.9 2.8 -2.9 2.8 0zM28.1 35.6v-1.1M30.6 37.8c0 -2.9 2.8 -2.9 2.8 0zM32 35.6v-1.1M34.5 37.8c0 -2.9 2.8 -2.9 2.8 0zM35.9 35.6v-1.1M38.5 37.8c0 -2.9 2.8 -2.9 2.8 0zM39.9 35.6v-1.1M42.4 37.8c0 -2.9 2.8 -2.9 2.8 0zM43.8 35.6v-1.1" fill="#c2b6a0" stroke-width="0.8"/>
+<rect x="18" y="37.8" width="28" height="3.5" fill="#8c7f6c"/>
+<rect x="42.1" y="37.8" width="3.9" height="3.5" fill="#6a5f51" stroke="none" opacity="0.45"/>
+<rect x="18" y="37.8" width="28" height="3.5" fill="none"/>
+<path d="M15.2 41.3c0 -3 2.9 -3 2.9 0zM16.6 39.1v-1.1M19 41.3c0 -3 2.9 -3 2.9 0zM20.5 39.1v-1.1M22.9 41.3c0 -3 2.9 -3 2.9 0zM24.3 39.1v-1.1M26.7 41.3c0 -3 2.9 -3 2.9 0zM28.2 39.1v-1.1M30.6 41.3c0 -3 2.9 -3 2.9 0zM32 39.1v-1.1M34.4 41.3c0 -3 2.9 -3 2.9 0zM35.9 39.1v-1.1M38.3 41.3c0 -3 2.9 -3 2.9 0zM39.7 39.1v-1.1M42.1 41.3c0 -3 2.9 -3 2.9 0zM43.6 39.1v-1.1M45.9 41.3c0 -3 2.9 -3 2.9 0zM47.4 39.1v-1.1" fill="#c2b6a0" stroke-width="0.8"/>
+</g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>Great Wall of China</title>
+<g stroke="#3b2f2a" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M0 62V45C8 38 18 41 26 36C34 31 42 33 50 27C56 23 60 22 64 20V62Z" fill="#7fa65a"/>
+<path d="M26 36C34 31 42 33 50 27C56 23 60 22 64 20V30C56 34 52 40 46 46C40 52 30 54 22 62H0Z" fill="#5f8a44" stroke="none" opacity="0.5"/>
+<path d="M0 45C8 38 18 41 26 36C34 31 42 33 50 27C56 23 60 22 64 20" fill="none"/>
+<path d="M2 57C14 52 18 56 26 49C32 44 28 41 36 38L40 35" fill="none" stroke-width="7.4"/>
+<path d="M2 57C14 52 18 56 26 49C32 44 28 41 36 38L40 35" fill="none" stroke="#b9ad96" stroke-width="5.4"/>
+<path d="M2 59.3C14 54.5 18 58.5 26 51.5C32 46.5 30 43.5 36 40.6" fill="none" stroke="#8e826c" stroke-width="1.6"/>
+<path d="M44 29C52 26 58 22 63 19" fill="none" stroke-width="5.6"/>
+<path d="M44 29C52 26 58 22 63 19" fill="none" stroke="#b9ad96" stroke-width="3.6"/>
+<rect x="38" y="15" width="12" height="17" fill="#c9bda4"/>
+<rect x="45" y="15" width="5" height="17" fill="#9d9179" stroke="none"/><rect x="38" y="15" width="12" height="17" fill="none"/>
+<path d="M36.5 15V12.5H39.5V14H41.5V12.5H44.5V14H46.5V12.5H49.5V14H51.5V15Z" fill="#c9bda4" stroke-width="0.8"/>
+<path d="M36.5 15H51.5V17.5H36.5Z" fill="#8f5a3c"/>
+<path d="M40 25V21.5A1.7 1.7 0 0 1 43.4 21.5V25Z" fill="#3f342d" stroke-width="0.8"/>
+<path d="M40 31V28H43.4V31Z" fill="#3f342d" stroke="none"/>
+</g>
+</svg>

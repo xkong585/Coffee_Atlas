@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>Parliament House, Port Moresby</title>
+<g stroke="#3b2f2a" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M4 62L32 3L60 62Z" fill="#a8452a"/>
+<path d="M7.9 62L32 11.3L56.1 62Z" fill="#e9c24a" stroke-width="0.8"/>
+<path d="M11.8 62L32 19.5L52.2 62Z" fill="#2d2420" stroke-width="0.8"/>
+<path d="M15.8 62L32 27.8L48.2 62Z" fill="#f0e6d0" stroke-width="0.8"/>
+<path d="M19.7 62L32 36.0L44.3 62Z" fill="#2d9a9a" stroke-width="0.8"/>
+<path d="M32 3L60 62H49Z" fill="#6b2a18" stroke="none" opacity="0.4"/>
+<rect x="25" y="44" width="14" height="18" fill="#c0392b"/>
+<rect x="27.5" y="48" width="9" height="14" fill="#2b1c14"/>
+<rect x="25.5" y="45.2" width="2" height="2" fill="#e9c24a" stroke="none"/>
+<rect x="27.4" y="45.2" width="2" height="2" fill="#f0e6d0" stroke="none"/>
+<rect x="29.3" y="45.2" width="2" height="2" fill="#2d9a9a" stroke="none"/>
+<rect x="31.2" y="45.2" width="2" height="2" fill="#e9c24a" stroke="none"/>
+<rect x="33.1" y="45.2" width="2" height="2" fill="#f0e6d0" stroke="none"/>
+<rect x="35.0" y="45.2" width="2" height="2" fill="#2d9a9a" stroke="none"/>
+<rect x="36.9" y="45.2" width="2" height="2" fill="#e9c24a" stroke="none"/>
+<path d="M32 3V0" fill="none"/>
+<rect x="2" y="56" width="60" height="6" fill="#d8c9a0"/>
+<path d="M2 58.5H62" fill="none" stroke-width="0.8"/>
+<rect x="25" y="44" width="14" height="18" fill="none"/>
+<rect x="27.5" y="48" width="9" height="14" fill="#2b1c14"/>
+</g>
+</svg>

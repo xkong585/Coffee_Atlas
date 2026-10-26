@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>Christ the Redeemer, Rio de Janeiro</title>
+<g stroke="#3b2f2a" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M1 62 C8 58 14 52 19 46 C23 41 26 37 29 36.5 L35 36.5 C38 37 41 41 45 47 C50 54 56 59 63 62 Z" fill="#5a9441"/>
+<path d="M35 36.5 C38 37 41 41 45 47 C50 54 56 59 63 62 H42 C40 54 37 45 33 37 Z" fill="#3d6e30" stroke="none"/>
+<path d="M22.5 44 C25 40 27 37.5 29.5 37 C28 42 26.5 47 23.5 50 Z" fill="#8b8b7d" stroke-width="0.8"/>
+<path d="M1 62 C8 58 14 52 19 46 C23 41 26 37 29 36.5 L35 36.5 C38 37 41 41 45 47 C50 54 56 59 63 62 Z" fill="none"/>
+<rect x="29" y="32.5" width="6" height="4.4" fill="#d6cfc0"/>
+<path d="M18.5 14.2 Q32 13 45.5 14.2 L45.5 16.8 Q38.5 17 34.2 18.4 L35 32.5 H29 L29.8 18.4 Q25.5 17 18.5 16.8 Z" fill="#efebe1"/>
+<path d="M32 14 L34.2 18.4 L35 32.5 H32.6 Z" fill="#c9c1b1" stroke="none"/>
+<path d="M18.5 14.2 Q32 13 45.5 14.2 L45.5 16.8 Q38.5 17 34.2 18.4 L35 32.5 H29 L29.8 18.4 Q25.5 17 18.5 16.8 Z" fill="none"/>
+<circle cx="32" cy="11.2" r="2.3" fill="#efebe1"/>
+</g>
+</svg>

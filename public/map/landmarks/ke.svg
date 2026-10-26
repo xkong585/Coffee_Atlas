@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>Kenyatta International Convention Centre, Nairobi</title>
+<g stroke="#3b2f2a" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
+<rect x="6" y="52" width="26" height="10" fill="#e3d4b9"/>
+<rect x="23" y="52" width="9" height="10" fill="#c9b897" stroke="none"/>
+<rect x="6" y="52" width="26" height="10" fill="none"/>
+<rect x="8" y="55" width="2" height="7" fill="#5a463b" stroke-width="0.8"/>
+<rect x="12" y="55" width="2" height="7" fill="#5a463b" stroke-width="0.8"/>
+<rect x="16" y="55" width="2" height="7" fill="#5a463b" stroke-width="0.8"/>
+<rect x="20" y="55" width="2" height="7" fill="#5a463b" stroke-width="0.8"/>
+<rect x="24" y="55" width="2" height="7" fill="#5a463b" stroke-width="0.8"/>
+<rect x="28" y="55" width="2" height="7" fill="#5a463b" stroke-width="0.8"/>
+<path d="M3 52.5 L19 37 L35 52.5 Q19 55.5 3 52.5 Z" fill="#a65a37"/>
+<path d="M19 37 L35 52.5 Q30 53.6 24 54 Z" fill="#82432a" stroke="none"/>
+<path d="M3 52.5 L19 37 L35 52.5 Q19 55.5 3 52.5 Z" fill="none"/>
+<path d="M19 37 V35" fill="none"/>
+<path d="M33 62 V15.5 A7 1.8 0 0 1 47 15.5 V62 Z" fill="#ddd0b4"/>
+<rect x="33.8" y="15.6" width="1.2" height="46.4" fill="#b5603a" stroke="none"/>
+<rect x="35.7" y="15.6" width="1.8" height="46.4" fill="#b5603a" stroke="none"/>
+<rect x="38.1" y="15.6" width="1.8" height="46.4" fill="#b5603a" stroke="none"/>
+<rect x="40.5" y="15.6" width="1.8" height="46.4" fill="#b5603a" stroke="none"/>
+<rect x="42.8" y="15.6" width="1.8" height="46.4" fill="#8f4a2c" stroke="none"/>
+<rect x="45.1" y="15.6" width="1.2" height="46.4" fill="#8f4a2c" stroke="none"/>
+<rect x="43" y="15.6" width="4" height="46.4" fill="#3b2f2a" stroke="none" opacity="0.18"/>
+<path d="M33 21 Q40 22.2 47 21" fill="none" stroke="#6e3a24" stroke-width="0.5" opacity="0.7"/>
+<path d="M33 27 Q40 28.2 47 27" fill="none" stroke="#6e3a24" stroke-width="0.5" opacity="0.7"/>
+<path d="M33 33 Q40 34.2 47 33" fill="none" stroke="#6e3a24" stroke-width="0.5" opacity="0.7"/>
+<path d="M33 39 Q40 40.2 47 39" fill="none" stroke="#6e3a24" stroke-width="0.5" opacity="0.7"/>
+<path d="M33 45 Q40 46.2 47 45" fill="none" stroke="#6e3a24" stroke-width="0.5" opacity="0.7"/>
+<path d="M33 51 Q40 52.2 47 51" fill="none" stroke="#6e3a24" stroke-width="0.5" opacity="0.7"/>
+<path d="M33 57 Q40 58.2 47 57" fill="none" stroke="#6e3a24" stroke-width="0.5" opacity="0.7"/>
+<path d="M33 62 V15.5 A7 1.8 0 0 1 47 15.5 V62 Z" fill="none"/>
+<ellipse cx="40" cy="13.4" rx="9" ry="2.2" fill="#e8dcc2"/>
+<path d="M32.6 12.6 L40 5 L47.4 12.6 Q40 14 32.6 12.6 Z" fill="#a65a37"/>
+<path d="M40 5 L47.4 12.6 Q45 13.1 42.4 13.3 Z" fill="#82432a" stroke="none"/>
+<path d="M32.6 12.6 L40 5 L47.4 12.6 Q40 14 32.6 12.6 Z" fill="none"/>
+<path d="M40 5 V2" fill="none"/>
+</g>
+</svg>

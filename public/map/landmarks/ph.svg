@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>Mayon Volcano and Cagsawa Ruins</title>
+<g stroke="#3b2f2a" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M0 62C14 55 24 36 31 15L33 15C40 36 50 55 64 62Z" fill="#78876a"/>
+<path d="M33 15C40 36 50 55 64 62H44C42 46 38 30 33 15Z" fill="#5a6a4f" stroke="none"/>
+<path d="M31 15L33 15L35 22L32 24L29 22Z" fill="#8f8f80" stroke-width="0.8"/>
+<path d="M26 38Q28 30 30 24M20 50Q24 42 27 34M38 36Q36 30 34 24" fill="none" stroke="#4f5e45" stroke-width="0.8"/>
+<circle cx="31" cy="11.5" r="4" fill="#f3f1ec" stroke-width="0.8"/>
+<circle cx="36" cy="8" r="4.6" fill="#f3f1ec" stroke-width="0.8"/>
+<circle cx="29" cy="5.5" r="3.4" fill="#f3f1ec" stroke-width="0.8"/>
+<circle cx="34" cy="5" r="3" fill="#fbfaf6" stroke="none"/>
+<path d="M0 62V57C12 54 24 56 34 57C44 58 54 56 64 58V62Z" fill="#6aa04a"/>
+<path d="M37 62L39 36L41 33L43 38L45 33L47 37L49 34L52 62Z" fill="#bcae96"/>
+<path d="M46 34L47 37L49 34L52 62H44Z" fill="#8f826c" stroke="none"/>
+<path d="M37 62L39 36L41 33L43 38L45 33L47 37L49 34L52 62Z" fill="none"/>
+<path d="M41.5 52V46A2.5 2.5 0 0 1 46.5 46V52Z" fill="#3f342d" stroke-width="0.8"/>
+<path d="M41.5 44V40.5A1.5 1.5 0 0 1 44.5 40.5V44Z" fill="#3f342d" stroke-width="0.8"/>
+<path d="M38 57H51M38.5 49H50.5" fill="none" stroke-width="0.8"/>
+<path d="M37 62H52" fill="none"/>
+</g>
+</svg>

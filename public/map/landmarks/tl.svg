@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>Uma Lulik sacred house, Timor-Leste</title>
+<g stroke="#3b2f2a" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
+<rect x="8" y="45" width="48" height="2.5" fill="#6e4a2c"/>
+<rect x="11" y="47.5" width="3" height="14.5" fill="#8a5e36"/>
+<rect x="12.8" y="47.5" width="1.2" height="14.5" fill="#65421f" stroke="none"/>
+<rect x="11" y="47.5" width="3" height="14.5" fill="none"/>
+<rect x="21" y="47.5" width="3" height="14.5" fill="#8a5e36"/>
+<rect x="22.8" y="47.5" width="1.2" height="14.5" fill="#65421f" stroke="none"/>
+<rect x="21" y="47.5" width="3" height="14.5" fill="none"/>
+<rect x="31" y="47.5" width="3" height="14.5" fill="#8a5e36"/>
+<rect x="32.8" y="47.5" width="1.2" height="14.5" fill="#65421f" stroke="none"/>
+<rect x="31" y="47.5" width="3" height="14.5" fill="none"/>
+<rect x="41" y="47.5" width="3" height="14.5" fill="#8a5e36"/>
+<rect x="42.8" y="47.5" width="1.2" height="14.5" fill="#65421f" stroke="none"/>
+<rect x="41" y="47.5" width="3" height="14.5" fill="none"/>
+<rect x="51" y="47.5" width="3" height="14.5" fill="#8a5e36"/>
+<rect x="52.8" y="47.5" width="1.2" height="14.5" fill="#65421f" stroke="none"/>
+<rect x="51" y="47.5" width="3" height="14.5" fill="none"/>
+<rect x="4" y="60.5" width="56" height="1.5" fill="#9ab06f" stroke="none"/>
+<path d="M10 45V36H54V45Z" fill="#7a5230"/>
+<path d="M28 45V38H36V45Z" fill="#2f1d12" stroke-width="0.8"/>
+<path d="M3 41L22 5H42L61 41Z" fill="#d1a850"/>
+<path d="M42 5L61 41H40Z" fill="#a8822f" stroke="none"/>
+<path d="M3 41L22 5H42L61 41Z" fill="none"/>
+<path d="M18.3 12H45.7" fill="none" stroke="#8a6a24" stroke-width="0.6"/>
+<path d="M14.6 19H49.4" fill="none" stroke="#8a6a24" stroke-width="0.6"/>
+<path d="M10.9 26H53.1" fill="none" stroke="#8a6a24" stroke-width="0.6"/>
+<path d="M7.2 33H56.8" fill="none" stroke="#8a6a24" stroke-width="0.6"/>
+<path d="M22 5L19 1M42 5L45 1" fill="none"/>
+<path d="M19 1H45" fill="none" stroke-width="1"/>
+<path d="M3 41H61" fill="none" stroke-width="0.8"/>
+</g>
+</svg>

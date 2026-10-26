@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>Rông communal house</title>
+<g stroke="#3b2f2a" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M22 50 V62 M27.5 50 V62 M36.5 50 V62 M42 50 V62" fill="none" stroke="#6e4a2e" stroke-width="2.4"/>
+<rect x="18" y="49" width="28" height="2.5" fill="#7a5233"/>
+<rect x="20" y="42" width="24" height="7" fill="#b88a55"/>
+<path d="M23.5 43 V48 M40.5 43 V48" fill="none" stroke="#8f6539" stroke-width="1"/>
+<rect x="28.5" y="43" width="7" height="6" fill="#4a3426"/>
+<path d="M30 51.5 L27 62 M35 51.5 L32 62 M29.4 54.5 H34.4 M28.6 57.5 H33.6" fill="none" stroke="#5e3f27" stroke-width="1.2"/>
+<path d="M14 7 H50 Q45.5 22 45.5 36 L49 43 H15 L18.5 36 Q18.5 22 14 7 Z" fill="#cf9b45"/>
+<path d="M40 7 H50 Q45.5 22 45.5 36 L49 43 H42 Q41.5 24 40 7 Z" fill="#a8762f" stroke="none"/>
+<path d="M14 7 H50 Q45.5 22 45.5 36 L49 43 H15 L18.5 36 Q18.5 22 14 7 Z" fill="none"/>
+<path d="M18.5 36 H45.5" fill="none" stroke="#8a5f25" stroke-width="1"/>
+<path d="M25 13 L32 21 L39 13 M25 29 L32 21 L39 29 M28.5 17 L32 13 L35.5 17 M28.5 25 L32 29 L35.5 25" fill="none" stroke="#8a5f25" stroke-width="1.1"/>
+<path d="M13 7.5 H51" fill="none" stroke="#5e3f27" stroke-width="2"/>
+<path d="M14 7 Q11 6 11 2.5 Q13.5 4 16.5 6.5 Z M50 7 Q53 6 53 2.5 Q50.5 4 47.5 6.5 Z" fill="#7a5233" stroke-width="1"/>
+</g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>King's Palace, Nyanza</title>
+<g stroke="#3b2f2a" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M11 62C11 42 21 27 30.5 19L32 5L33.5 19C43 27 53 42 53 62Z" fill="#d6aa4e"/>
+<path d="M33.5 19C43 27 53 42 53 62H40C41 44 38 28 33 19Z" fill="#b08435" stroke="none"/>
+<path d="M24 26Q32 31 40 26" fill="none" stroke-width="0.8"/>
+<path d="M19.5 33Q32 38 44.5 33" fill="none" stroke-width="0.8"/>
+<path d="M16 40Q32 45 48 40" fill="none" stroke-width="0.8"/>
+<path d="M13.5 47Q32 52 50.5 47" fill="none" stroke-width="0.8"/>
+<path d="M12 54Q32 59 52 54" fill="none" stroke-width="0.8"/>
+<path d="M30.5 19L32 5L33.5 19Z" fill="#8a6a2c"/>
+<path d="M29.5 13H34.5" fill="none" stroke-width="0.8"/>
+<path d="M26 62V50C26 43 38 43 38 50V62Z" fill="#3b2a1e"/>
+<path d="M23.5 62V50C23.5 40 40.5 40 40.5 50V62" fill="none" stroke="#7a5a24"/>
+<path d="M2 62V53.5" fill="#b9874a"/>
+<path d="M6 62V53.5" fill="#b9874a"/>
+<path d="M10 62V53.5" fill="#b9874a"/>
+<path d="M14 62V53.5" fill="#b9874a"/>
+<path d="M50 62V53.5" fill="#b9874a"/>
+<path d="M54 62V53.5" fill="#b9874a"/>
+<path d="M58 62V53.5" fill="#b9874a"/>
+<path d="M62 62V53.5" fill="#b9874a"/>
+<path d="M2 55H14" fill="none" stroke-width="0.8"/>
+<path d="M2 59H14" fill="none" stroke-width="0.8"/>
+<path d="M50 55H62" fill="none" stroke-width="0.8"/>
+<path d="M50 59H62" fill="none" stroke-width="0.8"/>
+</g>
+</svg>
