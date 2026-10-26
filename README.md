@@ -12,7 +12,7 @@ Discover coffee beans and regional drinks through an interactive world map, pers
 
 Coffee Atlas helps people who know what they like—fruity, chocolatey, creamy, or black—but are unsure what to try next. It connects everyday taste preferences to a sourced geographic catalog, with explanations that make unfamiliar coffees easier to explore.
 
-**[Open the live app](https://coffee-atlas-phi.vercel.app)** · [Project write-up](writeup.md) · [Architecture](docs/ARCHITECTURE.md) · [Deployment guide](docs/DEPLOYMENT.md)
+**[Open the live app](https://coffee-three-phi.vercel.app)** · [Project write-up](writeup.md) · [Architecture](docs/ARCHITECTURE.md) · [Deployment guide](docs/DEPLOYMENT.md)
 
 ![Coffee Atlas globe and geographic exploration](docs/images/coffee-atlas-explore.png)
 
@@ -20,13 +20,13 @@ Coffee Atlas helps people who know what they like—fruity, chocolatey, creamy, 
 
 The public application is hosted on **Vercel**, with persistent accounts on **Turso**, AI generation through **Anthropic**, and **Stripe sandbox** checkout. No local installation is needed.
 
-1. Open [Explore](https://coffee-atlas-phi.vercel.app/explore), choose a country or region, and visit a bean or drink detail page.
-2. [Create an account](https://coffee-atlas-phi.vercel.app/signup) to save discoveries and keep your taste preferences.
-3. Open [Find your coffee](https://coffee-atlas-phi.vercel.app/recommendations), choose preferences, click **Save these preferences**, then **Find my coffee**. Results include reasons, source links, and links to the catalog.
-4. Open [Plan a trip](https://coffee-atlas-phi.vercel.app/trip) to generate a coffee-discovery itinerary, optionally using your saved items.
-5. Visit [Saved](https://coffee-atlas-phi.vercel.app/saved) to revisit favorites, or [your account](https://coffee-atlas-phi.vercel.app/account) to view preferences and recommendation access.
+1. Open [Explore](https://coffee-three-phi.vercel.app/explore), choose a country or region, and visit a bean or drink detail page.
+2. [Create an account](https://coffee-three-phi.vercel.app/signup) to save discoveries and keep your taste preferences.
+3. Open [Find your coffee](https://coffee-three-phi.vercel.app/recommendations), choose preferences, click **Save these preferences**, then **Find my coffee**. Results include reasons, source links, and links to the catalog.
+4. Open [Plan a trip](https://coffee-three-phi.vercel.app/trip) to generate a coffee-discovery itinerary, optionally using your saved items.
+5. Visit [Saved](https://coffee-three-phi.vercel.app/saved) to revisit favorites, or [your account](https://coffee-three-phi.vercel.app/account) to view preferences and recommendation access.
 
-Each account starts with **three free successful AI recommendations**. A one-time **USD $5.00 test payment** on the [upgrade page](https://coffee-atlas-phi.vercel.app/upgrade) unlocks unlimited recommendations. Use Stripe's test card `4242 4242 4242 4242`, any future expiry date, and a three-digit CVC. No real funds move. You can try checkout before using all three free recommendations.
+Each account starts with **three free successful AI recommendations**. A one-time **USD $5.00 test payment** on the [upgrade page](https://coffee-three-phi.vercel.app/upgrade) unlocks unlimited recommendations. Use Stripe's test card `4242 4242 4242 4242`, any future expiry date, and a three-digit CVC. No real funds move. You can try checkout before using all three free recommendations.
 
 Trip planning is currently available without the paid unlock and does not consume recommendation credits. Itineraries are for coffee discovery; the app does not book travel or calculate transport schedules.
 
@@ -160,7 +160,7 @@ npm start
 
 ## Deploy online
 
-The live project uses **GitHub → Vercel** for deployment and **Turso** for persistent user data. Pushes or merges into `main` trigger a Vercel build; successful deployments update [coffee-atlas-phi.vercel.app](https://coffee-atlas-phi.vercel.app). GitHub Actions separately runs the verification suite on pull requests and pushes to `main`.
+The live project uses **GitHub → Vercel** for deployment and **Turso** for persistent user data. Pushes or merges into `main` trigger a Vercel build; successful deployments update [coffee-three-phi.vercel.app](https://coffee-three-phi.vercel.app). GitHub Actions separately runs the verification suite on pull requests and pushes to `main`.
 
 To recreate the deployment:
 
