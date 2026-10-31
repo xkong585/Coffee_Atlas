@@ -4,10 +4,6 @@
 
 This was a collaborative group project, and I actively contributed to every stage of its development.
 
-Original team repository: [HarryYuTou/Coffee_Atlas](https://github.com/HarryYuTou/Coffee_Atlas).
-
-This repository contains a project snapshot for my portfolio. Original team documentation and acknowledgments are retained below.
-
 Discover coffee beans and regional drinks through an interactive world map, personalized AI recommendations, and coffee-themed itineraries.
 
 Coffee Atlas helps people who know what they like—fruity, chocolatey, creamy, or black—but are unsure what to try next. It connects everyday taste preferences to a sourced geographic catalog, with explanations that make unfamiliar coffees easier to explore.
